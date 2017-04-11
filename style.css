@@ -1,0 +1,110 @@
+/* begin background images/ page specific */
+body.home {
+  background-image: url("images/test.jpg");
+  background-color: #d3e2e7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  }
+body.about {
+  background-image: url("images/superior.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%
+  }
+body.portfolio {
+  background-image: url("images/heart.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  }
+body.resume {
+  background-image: url("images/barn.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  }
+body.contact {
+  background-image: url("..");
+  }
+/* End background images */
+header {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 40%;
+  text-align: center;
+  }
+h1 {
+  font-family: "talkingMoon", cursive;
+  font-weight: heavy;
+  font-size: 250%;
+  color: navy;
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  }
+img.signature {
+    width: 80%;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 145%;
+  line-height: 60%;
+  font-family: "talkingMoon", cursive;
+  position: relative;
+  bottom: 10%;
+  }
+a {
+  text-decoration: none;
+  color: navy;
+}
+li#main {
+  visibility: hidden;
+}
+@font-face {
+  font-family: "talkingMoon";
+  src: url(TalkingToTheMoon.ttf);
+  format: (truetype);
+}
+/* End of header */
+/*Contact Page*/
+div.contact {
+  position: absolute;
+  align-content: center center;
+  width: 100%;
+  height: 20%;
+  bottom: 20%;
+    }
+img.twitter {
+  height: 60px;
+  position: relative;
+  left: 37%;
+}
+img.instagram {
+  height: 60px;
+  position: relative;
+  left: 42%;
+}
+img.linkedin {
+  height: 60px;
+  position: relative;
+  left: 47%;
+}
+/*Start About Section*/
+div#about {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  top: 10%;
+  padding: 15px;
+  text-align: center;
+  background-color: #250a3c;
+  font-family: "talkingMoon", cursive;
+  font-size: 122%;
+  color: white;
+  border-radius: 5%;
+ }
