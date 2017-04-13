@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "talkingMoon";
+  src: url(TalkingToTheMoon.ttf);
+  format: (truetype);
+}
 /* begin background images/ page specific */
 body.home {
   background-image: url("images/test.jpg");
@@ -5,9 +10,9 @@ body.home {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  /*-webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   background-size: cover;
   }
 body.about {
@@ -15,42 +20,43 @@ body.about {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*-webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   background-size: cover;
   }
 body.portfolio {
   background-image: url("images/heart.jpg");
   background-position: center center;
   background-attachment: fixed;
-  /*-webkit-background-size: cover;
+*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   background-size: cover;
   }
 body.resume {
   background-image: url("images/barn.jpg");
   background-position: center center;
   background-attachment: fixed;
-  /*-webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   background-size: cover;
   }
 body.contact {
-  /*background-image: url("..");
+  background-image: url("..");
   background-position: center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
   }
-/* End background images */
+/* End background images - commented out until I can find out why this
+is interfering with my header*/
 header {
   width: 100%;
-  height: 40%;
+  height: 200px;
   position: fixed;
   }
 h1 {
@@ -59,18 +65,18 @@ h1 {
   color: navy;
   position: absolute;
   right: 11%;
-  top: 38%;
+  top: 48%;
   z-index: 3;
   }
 img.signature {
     position: absolute;
-    width: 40%;
-    right: 8%;
+    width: 400px;
+        right: 8%;
     z-index: 2;
 }
 nav {
   position: absolute;
-  top: 66%;
+  top: 85%;
   right: 8%;
 }
 nav li {
@@ -86,11 +92,6 @@ a {
 }
 li#main {
   visibility: hidden;
-}
-@font-face {
-  font-family: "talkingMoon";
-  src: url(TalkingToTheMoon.ttf);
-  format: (truetype);
 }
 /* End of header */
 /*Contact Page*/
@@ -139,10 +140,16 @@ div#about {
 div#projects {
   height: auto;
   width: 50%;
+/*  position:relative;*/
       }
  .row2 {
    clear: left;
  }
+/* #grid {
+   position:absolute;
+   top: 50%;
+   transform: translateY(-50%);
+ }*/
   div div {
     width: 27%;
     float:left;
@@ -165,13 +172,13 @@ div#projects {
   }
   img.portfolio {
     width: 45%;
-  }
+
 @media screen and (max-width: 800px) {
     div#about {
     position: absolute;
     width: 95%;
     left: 0.5%;
-    top: 45%;
+    top: 55%;
     }
     div#projects{
       position: absolute;

@@ -1,0 +1,10 @@
+body {
+  background-color: orchid;
+}
+.container {
+  margin-top: 10%;
+}
+img {
+  height: 100px;
+  border-radius: 10%;
+}
